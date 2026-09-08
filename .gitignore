@@ -1,0 +1,24 @@
+cat >> .gitignore << 'EOF'
+
+# node
+node_modules/
+
+# python venv
+venv/
+
+# env files anywhere
+**/.env
+
+# django
+db.sqlite3
+media/
+EOFnode_modules/
+venv/
+.env
+**/.env
+db.sqlite3
+node_modules/
+venv/
+.env
+**/.env
+db.sqlite3
